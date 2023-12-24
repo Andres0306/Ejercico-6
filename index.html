@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Empleado del Mes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Registro de Ventas</h1>
+
+  <div class="vendedor">
+    <label for="nombreVendedor1">Vendedor 1:</label>
+    <input type="text" id="nombreVendedor1" placeholder="Nombre">
+    <button onclick="registrarVenta(1)">Registrar Venta</button>
+  </div>
+
+  <div class="vendedor">
+    <label for="nombreVendedor2">Vendedor 2:</label>
+    <input type="text" id="nombreVendedor2" placeholder="Nombre">
+    <button onclick="registrarVenta(2)">Registrar Venta</button>
+  </div>
+
+  <div>
+    <button onclick="mostrarResultados()">Mostrar Resultados</button>
+  </div>
+
+  <div id="resultados" class="resultados">
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
